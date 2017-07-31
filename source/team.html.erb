@@ -1,0 +1,16 @@
+<div class="wrapper">
+
+<h2>This template is powered with
+  <i class="fa fa-heart"></i>
+  by
+</h2>
+  <ul class="list-inline">
+    <% ["renan", "jorge"].each do |gh_username| %>
+      <li>
+        <%= image_tag "#{gh_username}.jpg", class: "avatar-large" %>
+        <h3 class="text-center"><%= gh_username.capitalize %></h3>
+      </li>
+    <% end %>
+  </ul>
+
+</div>

@@ -1,0 +1,19 @@
+
+.wrapper {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.avatar-large {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+li {
+  list-style: none;
+}
+

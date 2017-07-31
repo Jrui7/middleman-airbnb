@@ -7,7 +7,7 @@
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
 }
 
 /* Logo */
@@ -25,8 +25,8 @@
 /* Right section */
 .navbar-wagon-right {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: space-between;
 }
 
 /* Basic navbar item */
